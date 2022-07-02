@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="favicon" href="./images/logo.svg">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/simplePagination.js"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <section id="spotlight">
+        <div class="wrapper">
+            <header>
+                <a href="#"><img src="./images/logo.svg" alt="Logo"></a></img>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./pages/product.html">Products <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="./pages/about.html">About Us</a></li>
+                        <li><a href="./pages/contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <main>
+            <div class="left">
+                <h1>Yes! We Provide Scientific Equipments </h1>
+                <p>Dignissim sagittis suspendisse aliquam odio vulputate integer. Amet, mollis sit ac enim mauris eu.
+                    Posuere auctor lectus quis auctor orci. Lacus amet sit ut sit.</p>
+                <a href="#" class="button">Explore</a>
+            </div>
+            <div class="right">
+                <span><img src="./images/mesh.png" alt="img"></span>
+                <div class="main-slider">
+                    <div class="img-box"><img src="./images/spotlight image.png" alt=""></div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- spotlight end -->
+
+
+    <section id="products">
+        <div class="wrapper">
+            <div class="top">
+                <ul>
+                    <li class="active"><a href="javascript:void(0)">Molecular Biology</a></li>
+                    <li><a href="javascript:void(0)">Bio Chemical Assays</a></li>
+                    <li><a href="javascript:void(0)">Elisa</a></li>
+                    <li><a href="javascript:void(0)">Polycyclonal Antiebodies</a></li>
+                    <li><a href="javascript:void(0)">Monoclonical Antiebodis</a></li>
+                    <li><a href="javascript:void(0)">Flow Cytometry Antibodies</a></li>
+
+                </ul>
+                <select name="" id="">
+                    <option value="All Categories">All Categories</option>
+                    <option value="All Categories">All Categories</option>
+                    <option value="All Categories">All Categories</option>
+                </select>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h3> <img src="./images/product1.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        
+                    </a>
+
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product2.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product3.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product4.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product5.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr class="last">
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product6.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product7.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product8.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product9.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product10.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product11.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="javascript:void(0)">
+                            <h3> <img src="./images/product12.png" alt="image"></h3>
+                            <div class="product-name">
+                                <div class="top">
+                                    <span>Analyzation tube</span>
+                                    <small><i class="fa-solid fa-info"></i>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Cat. No.</th>
+                                                    <th>Packing</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                <td>0DP304-01</td>
+                                                <td>50 preps</td>
+                                                <td>10320</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-02</td>
+                                                <td>100 preps</td>
+                                                <td>18330</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0DP304-03</td>
+                                                <td>200 preps</td>
+                                                <td>32109</td>
+                                            </tr>
+                                        </table></small>
+                                </div>
+                                <small>White colour</small>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="view-all"><a href="#">view all products</a></div>
+        </div>
+    </section>
+    <!-- product end -->
+
+
+    <section id="global">
+        <div class="left">
+            <div class="hr-line">
+                </div>
+            <span class="top-mesh">
+                <img src="./images/mesh-top.png" alt="img">
+            </span>
+            <ul>
+              
+                <li>
+                    <div class="span">
+                        <img src="./images/guarantee-icon.svg" alt="images">
+                    </div>
+                    <small>100% Quality <br>Guarantee</small>
+                </li>
+              
+                <li>
+                    <div class="span">
+                        <img src="./images/worldwide.svg" alt="images">
+                    </div>
+                    <small>Worldwide <br> Delivery</small>
+                </li>
+              
+                <li>
+                    <div class="span">
+                        <img src="./images/global.svg" alt="images">
+                    </div>
+                    <small>Global <br> Presence</small>
+                </li>
+              
+                <li>
+                    <div class="span">
+                        <img src="./images/support.svg" alt="images">
+                    </div>
+                    <small>Expert Technical <br> Support</small>
+
+                </li>
+            </ul>
+            <small class="bottom-mesh">
+                <img src="./images/mesh-bottom.png" alt="images">
+            </small>
+        </div>
+        <div class="right">
+            <img src="./images/globe.png" alt="Globe">
+            <div class="right-mesh">
+                <img src="./images/right-mesh.png" alt="mesh">
+            </div>
+        </div>
+
+    </section>
+    <!-- global-end -->
+
+
+    <section id="we-are">
+        <div class="wrapper">
+            <div class="right-box">
+                <div class="shadow"></div>
+                <div class="main-img"><img src="./images/test1.png" alt="Image"></div>
+                <div class="sub-img"><img src="./images/test2.png" alt="Image"></div>
+                <div class="mesh"><img src="./images/right-mesh.png" alt="Mesh"></div>
+            </div>
+            <div class="left-box">
+                <h4>Who We Are ?</h4>
+                <p>Duis cursus enim dui dolor viverra sem mauris at varius. Libero rhoncus eu interdum aliquam maecenas
+                    quis morbi viverra sapien. Eget erat eget ut iaculis mi, nec nam ut tellus. Elit sociis in amet,
+                    mauris odio eget mauris, justo. A, orci, morbi non facilisi hac augue. Ut integer nunc fringilla
+                    commodo tellus pellentesque ornare cursus. Consectetur egestas eget cursus ut augue dui vestibulum.
+                    Dolor et ac eget consequat, sagittis elit tellus egestas. Tristique diam amet non pulvinar
+                    fermentum. Sagittis faucibus tortor at feugiat lobortis nullam leo nibh. Pellentesque mi in tempus
+                    ac mauris elit pellentesque accumsan. Quam consequat at vitae amet a, id. Tristique varius nisl
+                    turpis vitae semper magna nibh. Arcu laoreet duis purus in morbi nec ipsum. Cursus a eu dolor
+                    fringilla adipiscing. Blandit nec nibh mi mollis tristique curabitur egestas. Vulputate quam nisl
+                    elementum nascetur tortor sit. Lacinia vulputate.</p>
+            </div>
+        </div>
+    </section>
+    <!-- we-are end -->
+
+    <section id="mission">
+        <div class="wrapper">
+            <div class="left">
+                <h2>Our <span>New Mission</span> Scientific Field</h2>
+                <p>Consequat fermentum tristique in lacus. Et vitae, ut nisl metus faucibus penatibus ut orci. Sit
+                    aenean pellentesque ultrices malesuada</p>
+
+            </div>
+            <div class="right">
+                <div class="slider">
+                    <div class="item">
+                        <div class="image"><img src="./images/scientific equipment1.png" alt="images"></div>
+                        <h1>Scientific Equipment</h1>
+                        <p>Consequat fermentum tristique in lacus. Et vitae, ut nisl metus faucibus penatibus ut orci.
+                            Sit aenean pellentesque ultrices malesuada</p>
+                        <span>Coming Soon...</span>
+                    </div>
+                    <div class="item">
+                        <div class="image"><img src="./images/scientific equipment2.png" alt="images"></div>
+                        <h1>Scientific Equipment</h1>
+                        <p>Consequat fermentum tristique in lacus. Et vitae, ut nisl metus faucibus penatibus ut orci.
+                            Sit aenean pellentesque ultrices malesuada</p>
+                        <span>Coming Soon...</span>
+                    </div>
+                    <div class="item">
+                        <div class="image"><img src="./images/scientific equipment3.png" alt="images"></div>
+                        <h1>Scientific Equipment</h1>
+                        <p>Consequat fermentum tristique in lacus. Et vitae, ut nisl metus faucibus penatibus ut orci.
+                            Sit aenean pellentesque ultrices malesuada</p>
+                        <span>Coming Soon...</span>
+                    </div>
+                    <div class="item">
+                        <div class="image"><img src="./images/scientific equipment3.png" alt="images"></div>
+                        <h1>Scientific Equipment</h1>
+                        <p>Consequat fermentum tristique in lacus. Et vitae, ut nisl metus faucibus penatibus ut orci.
+                            Sit aenean pellentesque ultrices malesuada</p>
+                        <span>Coming Soon...</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- mission-end -->
+
+    <section id="client">
+        <div class="wrapper">
+            <div class="top">
+                <h2>Our <span>Clients</span> </h2>
+            </div>
+            <ul class="bottom">
+                <li><img src="./images/client1.png" alt="Clients"></li>
+                <li><img src="./images/client2.png" alt="Clients"></li>
+                <li><img src="./images/client3.png" alt="Clients"></li>
+                <li><img src="./images/client4.png" alt="Clients"></li>
+                <li><img src="./images/client5.png" alt="Clients"></li>
+                <li class="huge"><img src="./images/client6.png" alt="Clients"></li>
+                <li><img src="./images/client7.png" alt="Clients"></li>
+                <li><img src="./images/client8.png" alt="Clients"></li>
+                <li class="huge"><img src="./images/client9.png" alt="Clients"></li>
+                <li><img src="./images/client10.png" alt="Clients"></li>
+                <li><img src="./images/client11.png" alt="Clients"></li>
+            </ul>
+        </div>
+    </section>
+    <!-- client-end -->
+
+    <section id="experience">
+        <div class="wrapper">
+            <h1>
+                Over <span>20 Years Of Experience</span> With Best Results
+            </h1>
+            <div class="middle"></div>
+            <div class="middle-image">
+                <h1>
+                    <img src="./images/curve-line.png" alt="images">
+                </h1>
+            </div>
+            <div class="result">
+                <ul>
+                    <li>
+                        <div class="img"><img src="./images/high.svg" alt="images"></div>
+                        <h2>High- End Technology</h2>
+                        <p>Duis cursus enim dui dolor viverra sem mauris at varius. Libero rhoncus eu interdum aliquam
+                            maecenas quis morbi viverra sapien. Eget erat eget ut iaculis mi, nec nam ut tellus. Elit
+                            sociis in amet, mauris odio eget mauris, justo. </p>
+
+                    </li>
+                    <li>
+                        <div class="img"><img src="./images/chemical.svg" alt="images"></div>
+                        <h2>Chemical Test</h2>
+                        <p>Duis cursus enim dui dolor viverra sem mauris at varius. Libero rhoncus eu interdum aliquam
+                            maecenas quis morbi viverra sapien. Eget erat eget ut iaculis mi, nec nam ut tellus. Elit
+                            sociis in amet, mauris odio eget mauris, justo. </p>
+                    </li>
+                    <li>
+                        <div class="img"><img src="./images/different.svg" alt="images"></div>
+                        <h2>500 + Different Tests</h2>
+                        <p>Duis cursus enim dui dolor viverra sem mauris at varius. Libero rhoncus eu interdum aliquam
+                            maecenas quis morbi viverra sapien. Eget erat eget ut iaculis mi, nec nam ut tellus. Elit
+                            sociis in amet, mauris odio eget mauris, justo. </p>
+                    </li>
+                </ul>
+                <div class="mesh">
+                    <div class="result-mesh">
+                        <img src="./images/over-mesh.png" alt="images">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- experience-end -->
+
+    <section id="testimonials">
+        <div class="wrapper">
+            <h1>What <span>Our Client</span> Say About Us</h1>
+            <div class="content">
+                <div class="say-us">
+                    <div class="quatation">
+                        <img src="./images/quatation.svg" alt="image">
+                    </div>
+                    <p>Tincidunt iaculis nullam odio neque quis consectetur proin habitasse. Id viverra non aliquam,
+                        quam in tortor, tortor, est viverra. Ac nec tortor enim molestie nunc morbi risus id quis.
+                        Lacus, sollicitudin fermentum eu, non donec tincidunt. Eget mauris, ac id posuere fringilla
+                        etiam sem maecenas. Varius duis urna quis sagittis tellus, blandit hac sem.</p>
+
+                    <div class="name">
+                        <div class="person">
+                            <img src="./images/person1.png" alt="image">
+                        </div>
+                        <div class="sub">
+                            <span>Haylie Curtis</span>
+                            <small>Scientist</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="say-us">
+                    <div class="quatation">
+                        <img src="./images/quatation.svg" alt="image">
+                    </div>
+                    <p>Tincidunt iaculis nullam odio neque quis consectetur proin habitasse. Id viverra non aliquam,
+                        quam in tortor, tortor, est viverra. Ac nec tortor enim molestie nunc morbi risus id quis.
+                        Lacus, sollicitudin fermentum eu, non donec tincidunt. Eget mauris, ac id posuere fringilla
+                        etiam sem maecenas. Varius duis urna quis sagittis tellus, blandit hac sem.</p>
+
+                    <div class="name">
+                        <div class="person">
+                            <img src="./images/person2.png" alt="image">
+                        </div>
+                        <div class="sub">
+                            <span>Jaxson Lipshutz</span>
+                            <small>Scientist</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials-end -->
+
+    <footer>
+        <div class="wrapper">
+            <div class="left">
+                <div class="brand">
+                    <a href="#"><img src="./images/logo.svg" alt="Logo"></a>
+                </div>
+                <p>Cras nullam urna amet, tempus neque morbi cursus volutpat tristique.</p>
+                <div class="logo">
+                    <img src="./images/make in india.png" alt="images">
+                </div>
+            </div>
+            <div class="middle">
+                <h3>Contact Us</h3>
+                <ul class="info">
+                    <li>
+                        <a href="#">
+                            <div class="connect">
+                                <img src="./images/contact.svg" alt="contact">
+                            </div>
+                        </a>
+                        <span><a href="tel:+96 2266 4458">+96 2266 4458</a></span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="connect">
+                                <img src="./images/location.svg" alt="loacation">
+                            </div>
+                        </a>
+                        <span><a href="#">Bibendum rhoncus pellentesque aliquet convallis quis massa amet.
+                                Adipiscing</a></span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="connect">
+                                <img src="./images/mail.svg" alt="mail">
+                            </div>
+                        </a>
+                        <span><a href="mailto:origin@gmail.com">origin@gmail.com</a></span>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <h3>Quick Links</h3>
+                <ul class="links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./pages/product.html">Products</a></li>
+                    <li><a href="./pages/about.html">About Us</a></li>
+                    <li><a href="./pages/contact.html">Contact Us</a></li>
+                    
+                </ul>
+                <ul class="social">
+                    <li><a href="#"><img src="./images/Vector.svg" alt="images"></a> </li>
+                    <li><a href="#"><img src="./images/Vector-1.svg" alt="images"></a></li>
+                    <li><a href="#"><img src="./images/Vector-2.svg" alt="images"></a></li>
+                    <li><a href="#"><img src="./images/Vector-3.svg" alt="images"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>© All Right Reserved | Designed & Developed by <a href="https://tegain.com/" target="_blank">Tegain</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
